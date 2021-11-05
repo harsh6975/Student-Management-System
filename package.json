@@ -1,0 +1,16 @@
+{
+  "name": "student-management-system",
+  "version": "1.0.0",
+  "description": "A student portal project that acts as an online portal between students and the admin. It contains an admin who can enter details of students. Students can then login using provided user id password and edit their profile details and image. Admin can add details of Students marks. When students login they can see their own marks details. Students also get a student helpdesk to assist them and also a download page where students may download pdf format ebooks from the web system.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Harsh Sinha",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12"
+  }
+}
