@@ -1,0 +1,157 @@
+.sign-in-up {
+  background-color: #e75348;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-popup {
+  max-width: 900px;
+}
+
+.sign-pop {
+  background-color: white;
+  padding: 30px 0 30px 0;
+  height: fit-content;
+  position: relative;
+}
+
+.sign-pop::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 52.5%;
+  height: 100%;
+  border-left: 1px solid #eee5e5;
+}
+
+.site-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-right: 5px;
+  padding-left: 25px;
+}
+
+.logo {
+  width: 100%;
+}
+
+.login-sec {
+  float: left;
+  width: 100%;
+  padding: 30px 0;
+  position: relative;
+}
+
+.login-sec::before {
+  content: "";
+  position: absolute;
+  bottom: 3px;
+  right: 70px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  background-color: white;
+}
+
+.sign-control {
+  float: left;
+  width: 100%;
+  text-align: right;
+  margin-bottom: 50px;
+}
+
+.sign-control li {
+  display: inline-block;
+  background-color: rgb(192, 190, 190);
+  padding: 5px 15px;
+  margin-left: -7px;
+  border-radius: 5%;
+}
+
+.sign-control li a {
+  text-decoration: none;
+  font-weight: 500;
+  color: white;
+}
+
+.sign-control .current {
+  background-color: #e44d3a;
+}
+
+.sign_in_sec.current {
+  display: block;
+}
+
+.sign_in_sec {
+  float: left;
+  width: 100%;
+  padding-right: 75px;
+  padding-left: 60px;
+}
+
+.sign_in_sec h3 {
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+.sign_in_sec h3:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 30px;
+  height: 2px;
+  background-color: #e44d3a;
+}
+
+.sign_in_sec form input,
+.sign_in_sec form select {
+  width: 100%;
+  padding: 0 15px 0 40px;
+  color: #b2b2b2;
+  font-size: 14px;
+  border: 1px solid #e5e5e5;
+  height: 40px;
+}
+
+.sn-field {
+  float: left;
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.sn-field > i {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  color: #666;
+  font-size: 16px;
+  transform: translateY(-50%);
+}
+
+.sn-but {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sn-but button {
+  padding: 7px 20px 7px 20px;
+  background-color: #e44d3a;
+  border: none;
+  color: white;
+}
+
+.sn-but a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #000;
+}

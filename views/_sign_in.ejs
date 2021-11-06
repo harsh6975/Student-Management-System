@@ -1,0 +1,40 @@
+<h3>Sign In</h3>
+<form action="/users/create-session" method="POST">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="sn-field">
+        <i class="fa fa-user"></i>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Username/Email"
+        />
+      </div>
+    </div>
+    <div class="col-lg-12">
+      <div class="sn-field">
+        <i class="fa fa-lock"></i>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Password"
+        />
+      </div>
+    </div>
+    <div class="col-lg-12">
+      <div class="sn-but">
+        <button type="submit">Sign In</button>
+        <a href="/forget/search">Forget Password?</a>
+      </div>
+    </div>
+    <div class="col-lg-12">
+      <div class="sn-but text-center">
+        <p>
+          Don't have an account? Create one <a href="/users/signup"> here </a>
+        </p>
+      </div>
+    </div>
+  </div>
+</form>

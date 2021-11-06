@@ -1,0 +1,72 @@
+<h3>Sign Up</h3>
+<strong>Note: Registrations only for authorized members will be approved.</strong>
+<form action="/users/createAccount" method="POST">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="sn-field">
+        <i class="fa fa-user"></i>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Name *"
+          required
+        />
+      </div>
+    </div>
+    <div class="col-lg-12">
+      <div class="sn-field">
+        <i class="fas fa-envelope"></i>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email/Username *"
+          required
+        />
+      </div>
+    </div>
+    <div class="col-lg-12">
+      <div class="sn-field">
+        <i class="fas fa-id-badge"></i>
+        <select class="form-select" aria-label="Default select example" required>
+          <option selected>Profile *</option>
+          <option value="1">Admin</option>
+          <option value="2">Proffessor</option>
+          <option value="3">Stafs</option>
+          <option value="4">Others</option>
+        </select>
+      </div>
+    </div>
+    <div class="col-lg-12">
+      <div class="sn-field">
+        <i class="fa fa-lock"></i>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Password *"
+          required
+        />
+      </div>
+    </div>
+    <div class="col-lg-12">
+      <div class="sn-field">
+        <i class="fa fa-lock"></i>
+        <input
+          type="password"
+          name="confirm_password"
+          id="confirm_password"
+          placeholder="Confirm Password *"
+          required
+        />
+      </div>
+    </div>
+    <div class="col-lg-12">
+      <div class="sn-but">
+        <button type="submit">Get Started</button>
+        <a href="/users/signin">Already Account?</a>
+      </div>
+    </div>
+  </div>
+</form>
